@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+这是站点首页
+<img src="/static/images/1.jpeg" alt=""><br>
+{% if 'uid' in cookie %}
+    <h1>你已经登录</h1>
+<!--<input type="button" value="退出登录">-->
+<a href="/logout">退出登录</a>
+{% else %}
+    <h1>你还没有登录</h1>
+{% endif %}
+</body>
+</html>
