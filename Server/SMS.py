@@ -64,7 +64,7 @@ class SMS:
 
 
 if __name__ == "__main__":
-    sms = SMS("成少雷","SMS_102315005")
+    sms = SMS("亚洲舞王陈独秀","SMS_102315005")
     phone = input("请输入手机号：")
     #验证码
     num = random.randint(10000,99999)
